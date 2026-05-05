@@ -1,0 +1,4 @@
+interface:
+  display_name: "AGENTLab Guide"
+  short_description: "Manage AGENTLab: members, projects, skills, and conventions for dual-agent collaboration"
+  default_prompt: "Help the user manage their AGENTLab repository following the established conventions for member profiles, project tracking, skill authoring, and cross-tool compatibility."

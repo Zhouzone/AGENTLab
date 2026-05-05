@@ -1,0 +1,41 @@
+# GOAL — [Project Name]
+
+> 项目的北极星文档。所有工作应围绕这里的目标展开。
+> Agent 在帮助用户做决策时，应参考此文件判断方向是否对齐。
+
+## Mission
+
+<!-- 一句话：这个项目最终要实现什么？ -->
+
+## Research Questions
+
+<!-- 这个项目要回答的核心问题 -->
+1.
+2.
+3.
+
+## Principles
+
+<!-- 做这个项目时要遵守的原则 -->
+1.
+2.
+
+## Milestones
+
+<!-- 按阶段列出里程碑，标记状态 -->
+| Phase | Milestone | Status | Target Date |
+|-------|-----------|--------|-------------|
+| 1 | | `planned` | |
+| 2 | | `planned` | |
+
+## Current Priority
+
+<!-- 当前最重要的一件事是什么？每次 review 时更新 -->
+
+## How This File Should Be Used
+
+- **Agent**: 用户提出新想法时，对照 GOAL.md 判断是否对齐。偏离时提醒用户。
+- **Member**: 每次开始新工作前，确认它推进的是哪个 milestone。
+- **Lead**: 定期 review，更新 Current Priority 和 milestone 状态。
+
+> **更新频率**: Current Priority 每周/每月更新；Mission 和 Principles 除非重大变化否则不改。

@@ -1,0 +1,11 @@
+# My Codex Settings (shareable, non-sensitive)
+# Put this in members/<your-name>/settings/codex.toml
+# DO NOT include auth tokens, API keys, or project trust levels here
+
+# Model preference
+# model = "gpt-5.5"
+# model_reasoning_effort = "xhigh"
+
+# Plugins I use (teammates can reference this)
+# [plugins."plugin-name@marketplace"]
+# enabled = true

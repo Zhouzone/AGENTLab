@@ -1,0 +1,32 @@
+# Project: [Project Name]
+
+## Overview
+<!-- One paragraph: what is this project and why does it matter? -->
+
+## Team
+<!-- Who is working on this? Link to their ME.md -->
+| Member | Role | ME.md |
+|--------|------|-------|
+| [Name] | Lead | [ME.md](../../members/name/ME.md) |
+
+## Goals
+<!-- What are we trying to achieve? -->
+- [ ] Goal 1
+- [ ] Goal 2
+
+## Architecture
+<!-- Technical architecture, key components, data flow -->
+
+## Key Resources
+<!-- Links to repos, papers, datasets, docs -->
+- Code: [repo-url]
+- Paper: [paper-url]
+- Data: [data-location]
+
+## Status
+<!-- Current status: planning / active / paused / completed -->
+**Status:** active
+
+## Agent Instructions
+<!-- Special instructions for AI agents working on this project -->
+<!-- e.g., "This project uses PyTorch 2.x, target model is Qwen3.5-35B-A3B" -->

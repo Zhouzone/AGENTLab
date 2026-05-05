@@ -1,0 +1,27 @@
+# Progress Log — [Project Name]
+
+> Chronological log of research progress, key decisions, and findings.
+> Each entry follows the format below. Newest entries at the top.
+
+---
+
+## [YYYY-MM-DD] Title of Update
+
+**Author:** [Name]
+**Tags:** `experiment` | `decision` | `finding` | `blocker` | `milestone`
+
+### What happened
+<!-- Brief description of what was done -->
+
+### Key findings / decisions
+<!-- What did we learn? What was decided and why? -->
+
+### Next steps
+<!-- What comes next? -->
+
+### References
+<!-- Links to code commits, papers, experiment logs, etc. -->
+
+---
+
+<!-- Copy the template above for each new entry -->

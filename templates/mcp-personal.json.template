@@ -1,0 +1,4 @@
+{
+  "_comment": "Personal MCP server configs. Put in members/<name>/settings/mcp.json. Use $ENV_VAR for secrets.",
+  "servers": {}
+}

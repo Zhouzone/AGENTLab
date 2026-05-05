@@ -1,0 +1,22 @@
+# ME.private.md — Personal Preferences (LOCAL ONLY)
+
+> This file is .gitignored and will NEVER be uploaded to GitHub.
+> It is read by your local AI agent to personalize its behavior.
+
+## Model Preferences
+
+### Codex
+<!-- e.g., model = "gpt-5.5", reasoning_effort = "xhigh" -->
+
+### Claude Code
+<!-- e.g., effortLevel = "high" -->
+
+## Personal Agent Instructions
+<!-- Additional instructions for your AI agent that you don't want to share -->
+<!-- e.g., "Always respond in Traditional Chinese", "I'm new to React, explain frontend concepts in detail" -->
+
+## Private Notes
+<!-- Personal research notes, todos, ideas — for your eyes only -->
+
+## API Keys & Credentials
+<!-- NEVER put these in ME.md! -->

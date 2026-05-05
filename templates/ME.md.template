@@ -1,0 +1,41 @@
+# ME.md — Member Profile
+
+> This file is read by AI agents (Codex / Claude Code) to understand who you are.
+> Fill in the required fields. Optional fields help your AI agent work better with you.
+
+## Required Fields
+
+### Name
+<!-- Your name -->
+
+### Research Area
+<!-- Your primary research direction, e.g., "NLP, Large Language Model Training" -->
+
+### Current Projects
+<!-- List projects you're working on, link to projects/ directory -->
+- [project-name](../../projects/project-name/) — your role and focus
+
+### AI Tool
+<!-- Which tool do you primarily use? -->
+- [ ] OpenAI Codex CLI
+- [ ] Claude Code
+- [ ] Both
+
+## Optional Fields
+
+### Expertise & Skills
+<!-- Technical skills, programming languages, frameworks, domain knowledge -->
+
+### Publications
+<!-- Key papers, with links if available -->
+
+### Working Style
+<!-- How you prefer to work — helps AI agents adapt their behavior -->
+<!-- e.g., "I prefer concise responses", "Explain decisions in detail", "Use Chinese for comments" -->
+
+### Sharing
+<!-- 你能提供什么帮助？其他成员可以找你对接什么？ -->
+<!-- 例如：我熟悉 SFT pipeline，可以帮忙 debug 训练问题；我有整理好的 Qwen 微调笔记在 journal/ 里 -->
+
+### Links
+<!-- Personal homepage, Google Scholar, GitHub, etc. -->

@@ -1,0 +1,4 @@
+{
+  "_comment": "Shared MCP server configurations. NO auth tokens here — use $ENV_VAR placeholders.",
+  "servers": []
+}
