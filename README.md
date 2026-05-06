@@ -147,6 +147,48 @@ AGENTLab/
     └── ...
 ```
 
+## Registering Existing Projects
+
+Most research projects already have their own code repo and data location. AGENTLab doesn't replace them — it acts as a **command center** that tracks direction, progress, and team context, while code and data stay where they are.
+
+```
+AGENTLab (this repo)                External (where work actually happens)
+────────────────────                ──────────────────────────────────────
+projects/eeg-emotion/               github.com/org/EEG-Ablation     ← code
+  GOAL.md     (why we do this)      /data/shared/eeg-raw/            ← data
+  PROJECT.md  (where & how)         cluster GPU jobs                 ← experiments
+  PROGRESS.md (what happened)
+```
+
+**To register an existing project**, just tell your AI agent:
+
+```
+I have a project called eeg-emotion.
+Code is at github.com/org/EEG-Ablation, data is on cluster at /data/shared/eeg/.
+Goal is EEG emotion recognition ablation study. Baseline is done.
+```
+
+The agent will create `projects/eeg-emotion/` with GOAL.md, PROJECT.md, and PROGRESS.md. The `PROJECT.md` will reference your external code and data locations:
+
+```markdown
+## Key Resources
+- Code: https://github.com/org/EEG-Ablation
+- Data: cluster `/data/shared/eeg/`
+- Paper: [link]
+
+## Agent Instructions
+- Code lives in the above GitHub repo, not in this repository
+- Experiments run on cluster, results are logged to PROGRESS.md here
+- Framework: PyTorch 2.x, main model: EEGNet
+```
+
+After that, recording progress works from anywhere:
+
+```
+You: eeg-emotion — ablation without temporal attention dropped accuracy from 85% to 78%
+→ Agent updates projects/eeg-emotion/PROGRESS.md, commits, and pushes
+```
+
 ## Two-Level Architecture
 
 | Level | What | In Git? | Examples |
