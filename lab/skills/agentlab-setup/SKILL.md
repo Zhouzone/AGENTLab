@@ -20,21 +20,21 @@ Repository: Your team's Git repo (created from this template)
 ## Installation
 
 ```bash
-# Clone AGENTLab 到任意目录，然后运行 setup
+# Clone AGENTLab to any directory, then run setup
 git clone <your-team-repo-url> <your-path>
 cd <your-path> && bash scripts/setup.sh <your-name>
 ```
 
-setup.sh 会自动将所有 lab skills（包括本 skill）symlink 到 `~/.claude/skills/` 和 `~/.codex/skills/`。
+setup.sh automatically symlinks all lab skills (including this one) to `~/.claude/skills/` and `~/.codex/skills/`.
 
-更新时：
+To update:
 ```bash
 cd <your-path> && bash scripts/sync.sh
 ```
 
 ## Agent Behaviors
 
-### User says: "Set up AGENTLab" / "安装 AGENTLab" / "初始化 AGENTLab"
+### User says: "Set up AGENTLab"
 
 This is the **first-time setup on a new device** (laptop or cluster).
 
@@ -68,9 +68,9 @@ This is the **first-time setup on a new device** (laptop or cluster).
 
 5. Confirm success and show next steps:
    - Fill in `members/<name>/ME.md` (including Sharing section)
-   - Create branch → commit → PR
+   - Create branch, commit, PR
 
-### User says: "Sync AGENTLab" / "同步一下" / "update"
+### User says: "Sync AGENTLab"
 
 This is the **daily sync** — pull latest + re-install skills.
 
@@ -95,7 +95,7 @@ This is the **daily sync** — pull latest + re-install skills.
    cd <repo-path> && git log --oneline --since="24 hours ago"
    ```
 
-### User says: "Record progress" / "记录进度" / "log"
+### User says: "Record progress"
 
 1. Locate repo and run:
    ```bash
@@ -107,13 +107,13 @@ This is the **daily sync** — pull latest + re-install skills.
    - Prepend new entry with date, author, tags
    - `git add` + `git commit` + `git push`
 
-### User says: "Check status" / "看看最近进展"
+### User says: "Check status"
 
 ```bash
 cd <repo-path> && bash scripts/update.sh status
 ```
 
-### User says: "Set up on cluster" / "在集群上配置"
+### User says: "Set up on cluster"
 
 For cluster setup (no GUI, might not have Claude Code):
 
@@ -131,7 +131,7 @@ For cluster setup (no GUI, might not have Claude Code):
    # Then use update.sh for daily operations
    ```
 
-### User says: "Update this skill" / "更新 skill"
+### User says: "Update this skill"
 
 Self-update: pull latest version of this skill from the AGENTLab repo:
 ```bash

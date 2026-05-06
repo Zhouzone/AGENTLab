@@ -3,11 +3,11 @@ set -euo pipefail
 
 # AGENTLab — Daily update script (works on laptop, cluster, any device)
 # Usage:
-#   bash scripts/update.sh pull      # 工作前：拉取最新 + 显示变更
-#   bash scripts/update.sh log       # 工作后：记录进度 → commit → push
-#   bash scripts/update.sh status    # 随时：查看项目最新动态
-#   bash scripts/update.sh push      # 推送本地未推送的 commit
-#   bash scripts/update.sh init      # 首次：在此设备初始化身份
+#   bash scripts/update.sh pull      # Before work: pull latest + show changes
+#   bash scripts/update.sh log       # After work: record progress → commit → push
+#   bash scripts/update.sh status    # Anytime: check project status
+#   bash scripts/update.sh push      # Push unpushed local commits
+#   bash scripts/update.sh init      # First time: set identity on this device
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO_DIR="$(dirname "$SCRIPT_DIR")"
@@ -201,7 +201,7 @@ cmd_log() {
 
     # Collect entry info
     echo ""
-    read -p "Title (what happened, 一句话): " title
+    read -p "Title (what happened, one sentence): " title
     echo ""
     echo "Tags: experiment, decision, finding, blocker, milestone"
     read -p "Tag: " tag
@@ -345,9 +345,9 @@ case "${1:-help}" in
         echo "  push          Push uncommitted changes (with safety checks)"
         echo ""
         echo "Typical daily flow:"
-        echo "  1. bash scripts/update.sh pull     # 开始工作前"
+        echo "  1. bash scripts/update.sh pull     # Before starting work"
         echo "  2. (do your work...)"
-        echo "  3. bash scripts/update.sh log      # 工作结束后记录"
+        echo "  3. bash scripts/update.sh log      # After work: record progress"
         echo ""
         echo "Identity: $(get_identity || echo 'not set') @ $(hostname)"
         ;;

@@ -34,8 +34,8 @@
 <!-- e.g., "I prefer concise responses", "Explain decisions in detail", "Use Chinese for comments" -->
 
 ### Sharing
-<!-- 你能提供什么帮助？其他成员可以找你对接什么？ -->
-<!-- 例如：我熟悉 SFT pipeline，可以帮忙 debug 训练问题；我有整理好的 Qwen 微调笔记在 journal/ 里 -->
+<!-- What can you help with? What can other members come to you for? -->
+<!-- e.g., I'm familiar with SFT pipelines and can help debug training issues; I have organized fine-tuning notes in journal/ -->
 
 ### Links
 <!-- Personal homepage, Google Scholar, GitHub, etc. -->
