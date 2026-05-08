@@ -5,7 +5,7 @@
 
 | Name | Role | Responsibilities | Projects | Can Help With | Joined |
 |------|------|-----------------|----------|---------------|--------|
-| <!-- Your Name --> | Admin | <!-- Your responsibilities --> | <!-- project-a, project-b --> | <!-- Your expertise --> | <!-- YYYY-MM --> |
+| Cayenne | Member | RL training, evaluation, paper writing | OrchestratorR1 | GRPO/PPO training, API-only eval pipelines, Qwen2.5 series | 2026-05 |
 
 ## Roles
 
