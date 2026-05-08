@@ -4,6 +4,10 @@
 
 **https://github.com/Cayenne226/OrchestratorR1**
 
+## Dataset
+
+**https://huggingface.co/datasets/Cayenne226/OrchestratorR1-data**
+
 ## What
 LLM trained via RL (PPO/GRPO) to act as an **orchestrator**: emits `<search>Model:query</search>` calls to a heterogeneous agent pool, ingests `<information>` responses, and produces a final `<answer>`. Reward = EM/F1 minus optional API cost.
 
