@@ -1,5 +1,9 @@
 # OrchestratorR1 — Project Overview
 
+## Code Repository
+
+**https://github.com/Cayenne226/OrchestratorR1**
+
 ## What
 LLM trained via RL (PPO/GRPO) to act as an **orchestrator**: emits `<search>Model:query</search>` calls to a heterogeneous agent pool, ingests `<information>` responses, and produces a final `<answer>`. Reward = EM/F1 minus optional API cost.
 
